@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import MainMenu from "@/components/global/MainMenu";
-
+import TopMenu from "@/components/global/TopMenu";
 
 export const metadata: Metadata = {
-  title: "HCS",
+  title: "HCS - Portfolio",
   description: "Professional Portfolio",
-  icons: "",
+  icons: "/logos/hcs-logo.svg",
 };
 
 export default function RootLayout({
@@ -16,10 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`antialiased`}
-      >
-        <MainMenu/>
+      <body className={`antialiased`}>
+        <TopMenu />
         {children}
       </body>
     </html>

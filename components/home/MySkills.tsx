@@ -8,7 +8,7 @@ const MySkills = () => {
       <h2 className="text-center text-[#e67e22] mb-2 m-auto font-semibold font-mono text-3xl">EXPERIENCE</h2>
       <p className="text-center text-xl ">These are the summary of my skills based on my experiences: </p>
       <p className="text-center text-base text-zinc-500">Hover the icons to get more info</p>
-      <div className="max-w-5xl px-10 m-auto my-5 grid grid-cols-3 gap-4 max-lg:grid-cols-1 max-lg:px-40 max-md:grid-cols-1">
+      <div className="max-w-5xl px-10 m-auto my-5 grid grid-cols-3 gap-4 max-lg:grid-cols-1 max-lg:px-10 max-lg:max-w-lg">
         {mySkills.map((item) => (
           <div
             key={item.title}

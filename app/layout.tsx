@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import TopMenu from "@/components/global/TopMenu";
+import Footer from "@/components/global/Footer";
 
 export const metadata: Metadata = {
   title: "HCS - Portfolio",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className={`antialiased`}>
         <TopMenu />
         {children}
+        <Footer />
       </body>
     </html>
   );

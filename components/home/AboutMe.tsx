@@ -2,9 +2,9 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <section className="w-full py-16">
-      <div className="m-auto max-w-5xl px-20">
-        <h2 className="text-center m-auto text-3xl">About me</h2>
+    <section className="w-full py-10">
+      <div className="m-auto max-w-5xl px-20 max-xl:px-14">
+        <h2 className="text-center text-[#e67e22] mb-4 m-auto font-semibold font-mono text-3xl">ABOUT ME</h2>
         <p className="mt-4 text-lg">
           🎓 Control and Automation Engineer with a passion for technology and
           software development. With 5 years of solid experience in the

@@ -21,6 +21,12 @@ export const mySkills = [
                 icon: "/logos/js.svg",
                 link: ""
             },
+            {
+                title: "Typescript",
+                level: "Beginner",
+                icon: "/logos/ts.svg",
+                link: ""
+            },
         ]
     },
     {
@@ -60,17 +66,20 @@ export const mySkills = [
             {
                 title: "MS SQL Server",
                 level: "Confortable",
-                icon: "/logos/mssql.svg"
+                icon: "/logos/mssql.svg",
+                link: ""
             },
             {
                 title: "Azure SQL Database",
                 level: "Beginner",
-                icon: "/logos/azuresql.svg"
+                icon: "/logos/azuresql.svg",
+                link: ""
             },
             {
                 title: "MySQL",
                 level: "Beginner",
-                icon: "/logos/mysql.svg"
+                icon: "/logos/mysql.svg",
+                link: ""
             },
         ]
     },
@@ -81,17 +90,20 @@ export const mySkills = [
             {
                 title: "Tailwind CSS",
                 level: "Confortable",
-                icon: "/logos/tailwind.svg"
+                icon: "/logos/tailwind.svg",
+                link: ""
             },
             {
                 title: "Bootstrap",
                 level: "Confortable",
-                icon: "/logos/bootstrap.svg"
+                icon: "/logos/bootstrap.svg",
+                link: ""
             },
             {
                 title: "CSS",
                 level: "Confortable",
-                icon: "/logos/css.svg"
+                icon: "/logos/css.svg",
+                link: ""
             },
         ]
     },
@@ -102,22 +114,32 @@ export const mySkills = [
             {
                 title: "VS Code",
                 level: "Solid Experience",
-                icon: "/logos/vscode.svg"
+                icon: "/logos/vscode.svg",
+                link: ""
             },
             {
                 title: "Visual Studio",
                 level: "Confortable",
-                icon: "/logos/visualstudio.svg"
+                icon: "/logos/visualstudio.svg",
+                link: ""
             },
             {
                 title: "IntelliJ",
                 level: "Beginner",
-                icon: "/logos/intellij.svg"
+                icon: "/logos/intellij.svg",
+                link: ""
             },
             {
                 title: "Azure",
                 level: "Confortable",
-                icon: "/logos/azure.svg"
+                icon: "/logos/azure.svg",
+                link: ""
+            },
+            {
+                title: "Figma",
+                level: "Confortable",
+                icon: "/logos/figma.svg",
+                link: ""
             },
         ]
     },
@@ -128,17 +150,14 @@ export const mySkills = [
             {
                 title: "Siemens TIA Portal",
                 level: "Expertise",
-                icon: "/logos/tiaportal.svg"
+                icon: "/logos/tiaportal.svg",
+                link: "#"
             },
             {
                 title: "Siemens Step 7",
                 level: "Expertise",
-                icon: "/logos/step7.svg"
-            },
-            {
-                title: "Automation Studio",
-                level: "Familiar",
-                icon: "/logos/js.svg"
+                icon: "/logos/step7.svg",
+                link: "#"
             },
         ]
     },

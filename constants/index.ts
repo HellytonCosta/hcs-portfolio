@@ -162,3 +162,55 @@ export const mySkills = [
         ]
     },
 ]
+
+export const experience = [
+    {
+        id: "1",
+        location: "Scottsdale, AZ, USA",
+        from: "June 2024",
+        to: "Presently",
+        position: "Full-Stack Developer Trainee",
+        company: "MiCamp Solutions",
+        task1: "testing",
+        task2: "testing",
+        task3: "testing",
+        task4: "testing",
+        task5: "testing",
+    },
+    {
+        id: "2",
+        location: "Caçador, SC, BRA",
+        from: "May 2022",
+        to: "April 2024",
+        position: "Automation Technician",
+        company: "Guararapes Paineis",
+        task1: "Troubleshooting of PLC programs, electric panels",
+        task2: "Modification into pattern blocks for logic to PLCs",
+        task3: "Program changing (LADDER, STL, SCL)",
+        task4: "Retrofitting of old panels",
+        task5: "Creation and editing of applications in SCADA systems",
+    },
+    {
+        id: "3",
+        location: "Pouso Redondo, SC, BRA",
+        from: "January 2021",
+        to: "May 2022",
+        position: "Programmer",
+        company: "ICAVI Caldeiras",
+        task1: "Development of pattern blocks for logic to PLCs",
+        task2: "Programming development (LADDER, STL, C, VBScript)",
+        task3: "Creation and editing of applications in SCADA systems (supervisory)",
+        task4: "Service and support for customers with malfunctions in their equipment.",
+    }
+]
+
+export const educationalQualifications = [
+    {
+        id: "1",
+        location: "Curitibanos, SC, BRA",
+        from: "January 2015",
+        to: "December 2019",
+        course: "Bachelor's in Control and Automation Engineering",
+        university: "UnC - Universidade do Contestado",
+    },
+]

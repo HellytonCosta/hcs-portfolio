@@ -189,8 +189,6 @@ const Page = () => {
           <li><b>Portuguese</b> - Native</li>
           <li><b>English</b> - Advanced</li>
           <li><b>Spanish</b> - Beginner</li>
-          
-          
         </ul>
       </div>
     </section>

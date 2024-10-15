@@ -7,25 +7,25 @@ export const mySkills = [
                 title: "C# (C Sharp)",
                 level: "Confortable",
                 icon: "/logos/csharp.svg",
-                link: ""
+                link: "https://learn.microsoft.com/en-us/dotnet/csharp/"
             },
             {
                 title: "JAVA",
                 level: "Beginner",
                 icon: "/logos/java.svg",
-                link: ""
+                link: "https://docs.oracle.com/en/java/"
             },
             {
                 title: "JavaScript",
                 level: "Beginner",
                 icon: "/logos/js.svg",
-                link: ""
+                link: "https://nodejs.org/docs/latest/api/"
             },
             {
                 title: "Typescript",
                 level: "Beginner",
                 icon: "/logos/ts.svg",
-                link: ""
+                link: "https://www.typescriptlang.org/docs/"
             },
         ]
     },
@@ -37,25 +37,25 @@ export const mySkills = [
                 title: "ASP.NET MVC",
                 level: "Confortable",
                 icon: "/logos/dotnet.svg",
-                link: ""
+                link: "https://learn.microsoft.com/en-us/dotnet/"
             },
             {
                 title: "Next.js",
                 level: "Confortable",
                 icon: "/logos/nextjs.svg",
-                link: ""
+                link: "https://nextjs.org/docs"
             },
             {
                 title: "React",
                 level: "Beginner",
                 icon: "/logos/react.svg",
-                link: ""
+                link: "https://react.dev/"
             },
             {
                 title: "Spring",
                 level: "Beginner",
                 icon: "/logos/spring.svg",
-                link: ""
+                link: "https://docs.spring.io/spring-framework/reference/index.html"
             },
         ]
     },
@@ -67,19 +67,19 @@ export const mySkills = [
                 title: "MS SQL Server",
                 level: "Confortable",
                 icon: "/logos/mssql.svg",
-                link: ""
+                link: "https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16"
             },
             {
                 title: "Azure SQL Database",
                 level: "Beginner",
                 icon: "/logos/azuresql.svg",
-                link: ""
+                link: "https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql"
             },
             {
                 title: "MySQL",
                 level: "Beginner",
                 icon: "/logos/mysql.svg",
-                link: ""
+                link: "https://dev.mysql.com/doc/"
             },
         ]
     },
@@ -91,19 +91,19 @@ export const mySkills = [
                 title: "Tailwind CSS",
                 level: "Confortable",
                 icon: "/logos/tailwind.svg",
-                link: ""
+                link: "https://v2.tailwindcss.com/docs"
             },
             {
                 title: "Bootstrap",
                 level: "Confortable",
                 icon: "/logos/bootstrap.svg",
-                link: ""
+                link: "https://getbootstrap.com/"
             },
             {
                 title: "CSS",
                 level: "Confortable",
                 icon: "/logos/css.svg",
-                link: ""
+                link: "https://www.w3schools.com/cssref/index.php"
             },
         ]
     },
@@ -115,31 +115,31 @@ export const mySkills = [
                 title: "VS Code",
                 level: "Solid Experience",
                 icon: "/logos/vscode.svg",
-                link: ""
+                link: "https://code.visualstudio.com/docs"
             },
             {
                 title: "Visual Studio",
                 level: "Confortable",
                 icon: "/logos/visualstudio.svg",
-                link: ""
+                link: "https://learn.microsoft.com/en-us/visualstudio/windows/?view=vs-2022"
             },
             {
                 title: "IntelliJ",
                 level: "Beginner",
                 icon: "/logos/intellij.svg",
-                link: ""
+                link: "https://www.jetbrains.com/help/idea/getting-started.html"
             },
             {
                 title: "Azure",
                 level: "Confortable",
                 icon: "/logos/azure.svg",
-                link: ""
+                link: "https://learn.microsoft.com/en-us/azure/?product=popular"
             },
             {
                 title: "Figma",
                 level: "Confortable",
                 icon: "/logos/figma.svg",
-                link: ""
+                link: "https://help.figma.com/hc/en-us/categories/360002051613-Get-started"
             },
         ]
     },
@@ -151,13 +151,13 @@ export const mySkills = [
                 title: "Siemens TIA Portal",
                 level: "Expertise",
                 icon: "/logos/tiaportal.svg",
-                link: "#"
+                link: "https://support.industry.siemens.com/cs/document/65601780/tia-portal-an-overview-of-the-most-important-documents-and-links-controller?dti=0&lc=en-WW"
             },
             {
                 title: "Siemens Step 7",
                 level: "Expertise",
                 icon: "/logos/step7.svg",
-                link: "#"
+                link: "https://cache.industry.siemens.com/dl/files/056/18652056/att_70829/v1/S7prv54_e.pdf"
             },
         ]
     },

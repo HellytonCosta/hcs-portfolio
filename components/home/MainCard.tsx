@@ -13,8 +13,7 @@ const MainCard = () => {
             My name is Hellyton.
           </h2>
           <p className="mt-3 text-lg text-white font-mono">
-           {`I'm a Full stack developer, within almost 2 years of experience on
-            software development, scroll down to see more about me`}.
+            {`I'm a full-stack developer with over 1 year of experience in software development. Scroll down to learn more about me.`}
           </p>
         </div>
         <div className="flex-auto content-end">

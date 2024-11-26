@@ -59,9 +59,11 @@ const TopMenu = () => {
           </button>
         </div>
         <div className="flex-none flex gap-2 items-center">
-          <button className="max-lg:hidden bg-orange-400 text-[#000] px-4 py-2 rounded-full text-base text-center">
-            Get in touch with me.
-          </button>
+          <Link href={"mailto:hellyton_cs@hotmail.com"}>
+            <button className="max-lg:hidden  text-orange-400 px-4 text-lg py-2  text-center hover:bg-orange-400 hover:text-black transition-all">
+              Get in touch with me.
+            </button>
+          </Link>
           <Menu
             className="hidden max-lg:block cursor-pointer text-[#2ecc71]"
             onClick={() => handleClickDropdown()}

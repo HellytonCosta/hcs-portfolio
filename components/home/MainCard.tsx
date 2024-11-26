@@ -9,7 +9,7 @@ const MainCard = () => {
           <h2 className="text-5xl text-white max-lg:text-3xl font-semibold font-mono ">
             Hello World!
           </h2>
-          <h2 className="text-5xl text-[#2ecc71] max-lg:text-3xl font-semibold font-mono">
+          <h2 className="text-6xl pb-1 w-fit max-lg:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#2ecc71] to-[#269e58]">
             My name is Hellyton.
           </h2>
           <p className="mt-3 text-lg text-white font-mono">

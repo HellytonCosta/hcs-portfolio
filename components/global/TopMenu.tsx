@@ -30,7 +30,7 @@ const TopMenu = () => {
         <div className="flex-none content-center">
           <Link href={"/"} onClick={() => setMenuDrop(false)}>
             <Image
-              className=""
+              className="hover:scale-125 transition-all duration-200"
               alt=""
               src={"/images/hcs-logo.png"}
               width={40}
@@ -54,13 +54,15 @@ const TopMenu = () => {
               Projects
             </button>
           </Link>
-          <button className="hover:text-[#2ecc71] text-white transition ease-in-out delay-50 text-xl">
-            Contact
-          </button>
+          <Link className="hidden" href={"/contact"} onClick={() => setMenuDrop(false)}>
+            <button className="hover:text-[#2ecc71] text-white transition ease-in-out delay-50 text-xl">
+              Contact
+            </button>
+          </Link>
         </div>
         <div className="flex-none flex gap-2 items-center">
           <Link href={"mailto:hellyton_cs@hotmail.com"}>
-            <button className="max-lg:hidden  text-orange-400 px-4 text-lg py-2  text-center hover:bg-orange-400 hover:text-black transition-all">
+            <button className="max-lg:hidden rounded-full text-orange-400 px-4 text-lg py-2 duration-500 text-center hover:bg-orange-400 hover:text-black transition-all">
               Get in touch with me.
             </button>
           </Link>
@@ -90,7 +92,7 @@ const TopMenu = () => {
               {" "}
               <li className="my-2">Projects</li>
             </Link>
-            <Link href={""} onClick={() => setMenuDrop(false)}>
+            <Link className="hidden" href={"/contact"} onClick={() => setMenuDrop(false)}>
               {" "}
               <li className="my-2">Contact</li>
             </Link>

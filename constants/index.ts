@@ -214,3 +214,30 @@ export const educationalQualifications = [
         university: "UnC - Universidade do Contestado",
     },
 ]
+
+export const myProjects = [
+    {
+        id: 1,
+        title: "Transforme Seu",
+        description: "This is an ASP.NET MVC project styled with Bootstrap, created to let users fill out a form and get results based on the information they provide. It offers a simple and responsive experience for easy use.",
+        websiteLink: "https://transformeseu.azurewebsites.net",
+        repoLink: "",
+        backgroundImage: "url(./images/transformeseu-preview.jpg)",
+    },
+    {
+        id: 2,
+        title: "EPL Hub",
+        description: "A web application, built with Next.js, styled using Tailwind CSS and using next.auth for authentication, provides users with a comprehensive platform to explore results, statistics, and scores from the English Premier League.",
+        websiteLink: "https://github.com/HellytonCosta/epl-hub",
+        repoLink: "https://github.com/HellytonCosta/epl-hub",
+        backgroundImage: "url(./images/eplhub-preview.png)",
+    },
+    {
+        id: 3,
+        title: "My Personal Portfolio",
+        description: "This current page, built with Next.js and Tailwind CSS, showing all my professional information.",
+        websiteLink: "#",
+        repoLink: "https://github.com/HellytonCosta/hcs-portfolio",
+        backgroundImage: "url(./images/hcsportfolio-preview.png)",
+    },
+]

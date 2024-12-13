@@ -17,7 +17,7 @@ const Page = () => {
           <Image className="hover:scale-125 transition-all duration-200" width={25} height={25} src={"/images/github.png"} alt="GitHub Logo" />
         </Link>
       </div>
-      <div className="w-full grid grid-cols-3 gap-5 max-lg:grid-cols-1 px-32 my-6">
+      <div className="w-full grid grid-cols-3 gap-5 max-lg:grid-cols-1 px-32 max-md:px-4 my-6">
         {myProjects.map((project) => (
           <div key={project.id} className="">
             <Link

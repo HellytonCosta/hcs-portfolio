@@ -219,8 +219,8 @@ export const myProjects = [
     {
         id: 1,
         title: "Transforme Seu",
-        description: "This is an ASP.NET MVC project styled with Bootstrap, created to let users fill out a form and get results based on the information they provide. It offers a simple and responsive experience for easy use.",
-        websiteLink: "https://transformeseu.azurewebsites.net",
+        description: "This ASP.NET MVC project features a responsive, Bootstrap-styled interface designed to provide users with a seamless form-filling experience. Based on the information submitted, the application processes and displays relevant results in a clear and user-friendly format.",
+        websiteLink: "https://plataformammdc.azurewebsites.net",
         repoLink: "",
         backgroundImage: "url(./images/transformeseu-preview.jpg)",
     },

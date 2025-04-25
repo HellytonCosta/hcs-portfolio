@@ -16,9 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased`}>
+      <body className="min-h-screen flex flex-col bg-gradient-to-r from-[#043060] to-[#051f3b]">
         <TopMenu />
-        {children}
+        <main className="flex-1 bg-[#f7f7f7] text-black gap-8 row-start-2 items-center sm:items-start">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

@@ -25,7 +25,7 @@ const TopMenu = () => {
   }, [menuDrop]);
 
   return (
-    <div className="bg-[#34495e] w-full">
+    <div className="bg-transparent w-full">
       <div className="flex justify-around max-lg:justify-between max-lg:mx-5 items-center min-h-16">
         <div className="flex-none content-center">
           <Link href={"/"} onClick={() => setMenuDrop(false)}>
@@ -54,7 +54,11 @@ const TopMenu = () => {
               Projects
             </button>
           </Link>
-          <Link className="hidden" href={"/contact"} onClick={() => setMenuDrop(false)}>
+          <Link
+            className="hidden"
+            href={"/contact"}
+            onClick={() => setMenuDrop(false)}
+          >
             <button className="hover:text-[#2ecc71] text-white transition ease-in-out delay-50 text-xl">
               Contact
             </button>
@@ -92,7 +96,11 @@ const TopMenu = () => {
               {" "}
               <li className="my-2">Projects</li>
             </Link>
-            <Link className="hidden" href={"/contact"} onClick={() => setMenuDrop(false)}>
+            <Link
+              className="hidden"
+              href={"/contact"}
+              onClick={() => setMenuDrop(false)}
+            >
               {" "}
               <li className="my-2">Contact</li>
             </Link>

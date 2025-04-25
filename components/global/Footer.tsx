@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className=" bg-[#34495e]">
+    <footer className="  bg-gradient-to-r from-[#043060] to-[#051f3b]">
       <section className="mx-auto max-w-[1000px] px-5 py-7">
         <div className="flex gap-2">
           <div className="flex-1">

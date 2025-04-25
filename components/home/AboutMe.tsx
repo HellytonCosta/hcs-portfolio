@@ -8,21 +8,23 @@ const AboutMe = () => {
           ABOUT ME
         </h2>
         <p className="mt-4 text-lg">
-          🎓 Control and Automation Engineer with a passion for technology and
-          software development. With 5 years of solid experience in the
-          industrial automation field, working with various PLC brands, with an
-          emphasis on the Siemens ecosystem.
+          🎓 I am a Control and Automation Engineer who found software
+          development to be an opportunity to work with modern and continuously
+          evolving technologies. With 5 years of experience in Industrial
+          Automation — especially in the Siemens ecosystem — I bring a solid
+          background in PLC logic, industrial networks, and programming.
         </p>
         <p className="py-2 text-lg">
-          🚀 I am currently embarking on a new journey as a Trainee Developer,
-          where I combine my engineering experience with my enthusiasm for
-          software development. Over the past year and a half, I have been
-          diving deeply into the world of programming, working as a freelancer
-          on several projects that have allowed me to sharpen my skills.
+          💻 Currently, I’m working as a full-stack developer, focusing on
+          ASP.NET MVC applications. I have experience building robust solutions
+          focused on user experience, working on projects that require systems
+          integration, data visualization, and customization.
         </p>
         <p className="py-2 text-lg">
-          {`💼 The world can be a better place—let's connect and explore how we
-          can add value together!`}
+          🚀 I am particularly interested in Back-End, but I also explore
+          Front-End using React, Next.js, and TypeScript. Constantly suffering
+          (laughing) with algorithms and applying good practices, I’m naturally
+          curious about software architecture and scalable applications.
         </p>
       </div>
     </section>

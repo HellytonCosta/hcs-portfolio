@@ -17,7 +17,7 @@ const Projects = () => {
           </p>
         </Link>
       </div>
-      <div className="w-full grid grid-cols-3 gap-5 max-lg:grid-cols-1 px-32 max-md:px-4 my-10">
+      <div className="w-full grid grid-cols-3 gap-5 max-lg:grid-cols-2 max-md:grid-cols-1 px-60 max-md:px-10 max-2xl:px-20 my-10">
         {myProjects.map((project) => (
           <div key={project.id} className="">
             <Link
@@ -36,12 +36,10 @@ const Projects = () => {
             </Link>
             <div className="my-5">
               <h2 className="text-2xl font-bold text-orange-400 w-fit">
-                  {project.title}
+                {project.title}
               </h2>
 
-              <p className="text-justify my-1">
-                {project.description}
-              </p>
+              <p className="text-justify my-1">{project.description}</p>
               <div className="flex gap-2">
                 <Link2 className="size-6 hover:text-orange-400 transition-all" />
                 <GitBranch className="size-6 hover:text-orange-400 transition-all" />

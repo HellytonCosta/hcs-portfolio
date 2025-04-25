@@ -14,7 +14,7 @@ import React from "react";
 
 const Page = () => {
   return (
-    <section className="bg-[#34495e] text-black p-10">
+    <section className="bg-gradient-to-r from-[#043060]  to-[#051f3b] text-black p-10">
       <div className="mx-auto py-10 px-24 max-lg:px-10 bg-white max-w-[1200px]">
         <h1 className="text-4xl max-lg:text-2xl my-5 flex justify-center items-center gap-3 text-center font-mono">
           <Code className="text-orange-400" />
@@ -156,13 +156,28 @@ const Page = () => {
           <Code2 className="text-orange-400" />
         </h2>
         <ul className="max-lg:text-sm mt-2">
-          <li><b>Bayswater College, London, UK</b> - General English 40 hours</li>
-          <li><b>Programiz</b> - Java Master (Online Course)</li>
-          <li><b>LinkedIn Learning</b> - Scrum Foundations</li>
-          <li><b>DIO.me</b> - HTML Web Developer Training (21 Hours)</li>
-          <li><b>DIO.me</b>{` - Bootcamp 'Potência Tech powered by iFood' - Java Beginners (91 Hours)`}</li>
-          <li><b>DIO.me</b> - React Developer Training (34 Hours - Ongoing 94%)</li>
-          <li><b>DIO.me</b> - C# Developer Training (93 Hours - Ongoing 80%)</li>
+          <li>
+            <b>Bayswater College, London, UK</b> - General English 40 hours
+          </li>
+          <li>
+            <b>Programiz</b> - Java Master (Online Course)
+          </li>
+          <li>
+            <b>LinkedIn Learning</b> - Scrum Foundations
+          </li>
+          <li>
+            <b>DIO.me</b> - HTML Web Developer Training (21 Hours)
+          </li>
+          <li>
+            <b>DIO.me</b>
+            {` - Bootcamp 'Potência Tech powered by iFood' - Java Beginners (91 Hours)`}
+          </li>
+          <li>
+            <b>DIO.me</b> - React Developer Training (34 Hours - Ongoing 94%)
+          </li>
+          <li>
+            <b>DIO.me</b> - C# Developer Training (93 Hours - Ongoing 80%)
+          </li>
         </ul>
         {/* GENERAL SKILLS */}
         <h2 className="text-3xl max-lg:text-xl max-lg:justify-center mt-6 flex uppercase items-center gap-3 text-center font-mono">
@@ -171,13 +186,30 @@ const Page = () => {
           <Code2 className="text-orange-400" />
         </h2>
         <ul className="max-lg:text-sm mt-2">
-          <li><b>PLC development</b> - Ladder, STL - Structured Text, C – TIA Portal | Step7 | Studio 5000</li>
-          <li><b>SCADA development</b> – WinCC | RSView | Intouch | Indusoft Web Studio </li>
-          <li><b>Programming Languages</b> - C# | Java | JavaScript | TypeScript</li>
-          <li><b>Frameworks</b> - .NET | Next.js | React | Spring</li>
-          <li><b>Database</b> - MS SQL Server | Azure SQL | MySql</li>
-          <li><b>Styling</b> - Tailwind CSS | Bootstrap | Pure CSS</li>
-          <li><b>General Tools</b> - VS Code | Visual Studio | IntelliJ | Azure | Figma</li>
+          <li>
+            <b>PLC development</b> - Ladder, STL - Structured Text, C – TIA
+            Portal | Step7 | Studio 5000
+          </li>
+          <li>
+            <b>SCADA development</b> – WinCC | RSView | Intouch | Indusoft Web
+            Studio{" "}
+          </li>
+          <li>
+            <b>Programming Languages</b> - C# | Java | JavaScript | TypeScript
+          </li>
+          <li>
+            <b>Frameworks</b> - .NET | Next.js | React | Spring
+          </li>
+          <li>
+            <b>Database</b> - MS SQL Server | Azure SQL | MySql
+          </li>
+          <li>
+            <b>Styling</b> - Tailwind CSS | Bootstrap | Pure CSS
+          </li>
+          <li>
+            <b>General Tools</b> - VS Code | Visual Studio | IntelliJ | Azure |
+            Figma
+          </li>
         </ul>
         {/* LANGUAGE SKILLS */}
         <h2 className="text-3xl max-lg:text-xl max-lg:justify-center mt-6 flex uppercase items-center gap-3 text-center font-mono">
@@ -186,9 +218,15 @@ const Page = () => {
           <Code2 className="text-orange-400" />
         </h2>
         <ul className="max-lg:text-sm mt-2">
-          <li><b>Portuguese</b> - Native</li>
-          <li><b>English</b> - Advanced</li>
-          <li><b>Spanish</b> - Beginner</li>
+          <li>
+            <b>Portuguese</b> - Native
+          </li>
+          <li>
+            <b>English</b> - Advanced
+          </li>
+          <li>
+            <b>Spanish</b> - Beginner
+          </li>
         </ul>
       </div>
     </section>

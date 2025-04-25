@@ -7,7 +7,7 @@ import React from "react";
 
 const Page = () => {
   return (
-    <div className="p-5 bg-white min-h-[750px] text-black">
+    <div className="p-5 bg-white object-fill text-black">
       <h2 className="text-center text-orange-400 m-auto font-semibold font-mono text-3xl">
         PROJECTS
       </h2>

@@ -7,6 +7,7 @@ import React from "react";
 
 const MainCard = () => {
   const titleRef = useRef<HTMLHeadingElement>(null);
+  const paragraphRef = useRef<HTMLHeadingElement>(null);
   const nameRef = useRef<HTMLHeadingElement>(null);
   const imageRef = useRef<HTMLImageElement>(null);
 
@@ -15,6 +16,12 @@ const MainCard = () => {
 
     gsap.fromTo(
       titleRef.current,
+      { opacity: 0, y: -50 },
+      { opacity: 1, y: 0, duration: 1.2, ease: "power3.out" }
+    );
+
+    gsap.fromTo(
+      paragraphRef.current,
       { opacity: 0, y: -50 },
       { opacity: 1, y: 0, duration: 1.2, ease: "power3.out" }
     );
@@ -48,7 +55,7 @@ const MainCard = () => {
           >
             My name is Hellyton.
           </h2>
-          <p className="mt-3 text-lg text-white font-light" ref={titleRef}>
+          <p className="mt-3 text-lg text-white font-light" ref={paragraphRef}>
             {`I'm a full-stack developer with over 1 year of experience in software development. Scroll down to learn more about me.`}
           </p>
         </div>

@@ -25,14 +25,6 @@ const Page = () => {
         <div className="text-start my-1">
           <ul className="flex max-xl:block gap-5 justify-center space-y-1">
             <li className="flex gap-2 items-center">
-              <Cake className="flex-none size-5 text-orange-400" />
-              <p className="flex-auto mt-1">September 1st, 1997</p>
-            </li>
-            <li className="flex gap-2 items-center">
-              <Mail className="flex-none size-5  text-orange-400" />
-              <p className="flex-auto">hellyton_cs@hotmail.com</p>
-            </li>
-            <li className="flex gap-2 items-center">
               <Linkedin className="flex-none size-5 text-orange-400" />
               <Link
                 target="_blank"
@@ -225,7 +217,7 @@ const Page = () => {
             <b>English</b> - Advanced
           </li>
           <li>
-            <b>Spanish</b> - Beginner
+            <b>Spanish</b> - Intermediate
           </li>
         </ul>
       </div>

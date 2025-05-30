@@ -1,12 +1,10 @@
 import { educationalQualifications, experience } from "@/constants";
 import {
-  Cake,
   Calendar,
   Code,
   Code2,
   GitBranchIcon,
   Linkedin,
-  Mail,
   MapPin,
 } from "lucide-react";
 import Link from "next/link";
